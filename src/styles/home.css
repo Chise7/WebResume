@@ -1,0 +1,38 @@
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin-left: 180px;
+    /* margin-left: 5%; */
+    
+}
+
+.home-text-cont{
+    display: flex;
+    flex-direction: column;
+    /* background-color: orange; */
+}
+
+.connorhise{
+    font-size: calc(60px + 2vmin);
+    /* background-color: green; */
+    /* padding: 10px;
+    margin: 10px 0; */
+    margin-top: 15px;
+}
+
+.home-text{
+    /* background-color: blue; */
+    /* padding: 10px; */
+    margin-top: 100px;
+}
+
+.home-art{
+    margin-left: 25%;
+    height: auto;
+    /* background-color: red; */
+    padding: 2%;
+    margin-top: 5%;
+}

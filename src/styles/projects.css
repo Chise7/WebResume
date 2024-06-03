@@ -1,0 +1,13 @@
+.projects{
+    height: 100vh;
+    margin-left: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.projects-title{
+    margin-top: 5%;
+    margin-right: 10%;
+    font-size: calc(60px + 1vmin);
+}
