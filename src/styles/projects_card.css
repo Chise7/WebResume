@@ -13,7 +13,12 @@
     align-content: space-between;
     align-items: center;
     background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    
+}
+
+.card:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: grey; /*can fix later with luxury*/
 }
 
 .card-image{
@@ -37,4 +42,40 @@
     text-align: center; 
     margin: 5px 0; 
     color: #333;
+    /* transition: opacity 0.3s ease; */
+}
+
+.card-info-cont{
+    display: none;
+    padding: 10px;
+    opacity: 0;
+    /* transition: opacity 1s ease; */
+}
+
+.technologies{
+    display: flex;
+    flex-direction: row;
+}
+
+.summary{
+    text-align: center;
+}
+
+.see-more{
+    text-align: center;
+}
+
+.card.expanded{
+    height: 50vh;
+    width: 50vw;
+}
+
+.card.expanded .card-text{
+    display:none;
+}
+
+.card.expanded .card-info-cont{
+    display: contents;
+    margin: 5px 0;
+    opacity: 1;
 }

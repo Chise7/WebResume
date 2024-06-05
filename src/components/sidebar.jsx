@@ -1,7 +1,9 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import "../styles/sidebar.css";
 
 const Sidebar = () => {
+    const [activeSection,setActiveSection] = useState('Home');
+
     useEffect(() => {
         const sections = document.querySelectorAll("section[id]");
 
@@ -33,11 +35,11 @@ const Sidebar = () => {
             <nav className="navigation">
                 <ul>
                     <li>
-                        <a href="#Home" className="active">Home</a>
-                        <a href="#Projects">Projects</a>
-                        <a href="#WorkExperience">Work Experience</a>
-                        <a href="#AboutMe">About Me</a>
-                        <a href="#Contact">Contact</a>
+                        <a href="#Home" className={ activeSection === 'Home' ? 'active':' '}>Home</a>
+                        <a href="#Projects"className={ activeSection === 'Projects'? 'active':' '}>Projects</a>
+                        <a href="#WorkExperience"className={ activeSection === 'Experience'? 'active':' '}>Experience</a>
+                        <a href="#AboutMe"className={ activeSection === 'About'? 'active':' '}>About Me</a>
+                        <a href="#Contact"className={ activeSection === 'Contact'? 'active':' '}>Contact</a>
                     </li>
                 </ul>
             </nav>

@@ -6,9 +6,10 @@
 
 .App{
     /* color: black; */
-    /* background-color: #141316; */
+    /* background-color: #04041f; */
     display: flex;
     flex-direction: column;
     overflow: hidden;
     font-family: 'Montserrat', sans-serif;
+    /* background-image: url('/stars.jpg'); */
 }

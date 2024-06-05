@@ -1,0 +1,22 @@
+.about{
+    height: 100vh;
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.about-title{
+    margin-top: 15px;
+    font-size: calc(60px + 1vmin);
+    text-align: center;
+    margin-right: 2vw;
+}
+
+.about-intro{
+    margin-top: 5px;
+    text-align: center;
+    margin-right: 2vw;
+}

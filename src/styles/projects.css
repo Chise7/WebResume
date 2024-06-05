@@ -15,14 +15,21 @@
     margin-right: 2vw;
 }
 
+.projects-intro{
+    margin-top: 5px;
+    text-align: center;
+    margin-right: 2vw;
+}
+
 .card-container{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    overflow: auto;
     justify-content: center;
+    align-content: space-around;
     margin-top: 20px;
     width: 80vw;
     margin-right: 2vw;
+    padding: 5px;
 }
 

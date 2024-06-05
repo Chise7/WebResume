@@ -1,4 +1,4 @@
-.contact{
+.experience{
     height: 100vh;
     margin-left: 10vw;
     display: flex;
@@ -8,14 +8,14 @@
     align-items: center;
 }
 
-.contact-title{
+.experience-title{
     margin-top: 15px;
     font-size: calc(60px + 1vmin);
     text-align: center;
     margin-right: 2vw;
 }
 
-.contact-intro{
+.experience-intro{
     margin-top: 5px;
     text-align: center;
     margin-right: 2vw;
