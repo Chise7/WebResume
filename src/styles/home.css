@@ -5,34 +5,40 @@
     align-items: flex-start;
     height: 100vh;
     margin-left: 180px;
-    /* margin-left: 5%; */
     
 }
 
 .home-text-cont{
     display: flex;
     flex-direction: column;
-    /* background-color: orange; */
+    justify-content: center;
 }
 
 .connorhise{
     font-size: calc(60px + 2vmin);
-    /* background-color: green; */
-    /* padding: 10px;
-    margin: 10px 0; */
-    margin-top: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hello-text{
+    margin-top: 25vh;
+    font-size: 1.5em; /* Adjust font size as needed */
+    color: #555; /* Slightly lighter text color */
 }
 
 .home-text{
-    /* background-color: blue; */
-    /* padding: 10px; */
-    margin-top: 100px;
+    font-size: 1.2em; /* Base font size for regular text */
+    line-height: 1.6; /* Improve readability with line height */
+    color: #666; /* Slightly lighter text color for regular text */
+    margin-bottom: 20px; /* Space below the text */
 }
 
 .home-art{
     margin-left: 25%;
     height: auto;
-    /* background-color: red; */
     padding: 2%;
     margin-top: 5%;
+    max-width: 50%; /* Ensure the art doesn't exceed half the width */
+    border-radius: 10px; /* Rounded edges for the art */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }

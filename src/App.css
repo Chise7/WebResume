@@ -1,5 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .App{
-    color: black;
+    /* color: black; */
+    /* background-color: #141316; */
     display: flex;
     flex-direction: column;
     overflow: hidden;

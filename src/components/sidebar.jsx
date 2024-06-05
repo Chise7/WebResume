@@ -33,7 +33,7 @@ const Sidebar = () => {
             <nav className="navigation">
                 <ul>
                     <li>
-                        <a href="#Home"className="active">Home</a>
+                        <a href="#Home" className="active">Home</a>
                         <a href="#Projects">Projects</a>
                         <a href="#WorkExperience">Work Experience</a>
                         <a href="#AboutMe">About Me</a>

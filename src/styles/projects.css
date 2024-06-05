@@ -1,13 +1,28 @@
 .projects{
     height: 100vh;
-    margin-left: 180px;
+    margin-left: 10vw;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 20px;
+    align-items: center;
 }
 
 .projects-title{
-    margin-top: 5%;
-    margin-right: 10%;
+    margin-top: 15px;
     font-size: calc(60px + 1vmin);
+    text-align: center;
+    margin-right: 2vw;
 }
+
+.card-container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: auto;
+    justify-content: center;
+    margin-top: 20px;
+    width: 80vw;
+    margin-right: 2vw;
+}
+
