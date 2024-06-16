@@ -1,5 +1,5 @@
 import React from 'react';
-import test from "/test-block.png";
+import test from "/rocket.png";
 import "../styles/home.css";
 
 const Home = () =>{

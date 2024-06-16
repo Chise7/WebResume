@@ -8,7 +8,6 @@ const Experience = () =>{
             <div className="experience">
                 <div className= "experience-title">Experience</div>
             </div>
-            
         </section>
     );
 };

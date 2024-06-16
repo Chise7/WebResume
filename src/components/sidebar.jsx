@@ -36,10 +36,10 @@ const Sidebar = () => {
                 <ul>
                     <li>
                         <a href="#Home" className={ activeSection === 'Home' ? 'active':' '}>Home</a>
-                        <a href="#Projects"className={ activeSection === 'Projects'? 'active':' '}>Projects</a>
-                        <a href="#WorkExperience"className={ activeSection === 'Experience'? 'active':' '}>Experience</a>
-                        <a href="#AboutMe"className={ activeSection === 'About'? 'active':' '}>About Me</a>
-                        <a href="#Contact"className={ activeSection === 'Contact'? 'active':' '}>Contact</a>
+                        <a href="#Projects"className={ activeSection === 'Projects' ? 'active':' '}>Projects</a>
+                        <a href="#Experience"className={ activeSection === 'Experience' ? 'active':' '}>Experience</a>
+                        <a href="#About"className={ activeSection === 'About' ? 'active':' '}>About Me</a>
+                        <a href="#Contact"className={ activeSection === 'Contact' ? 'active':' '}>Contact</a>
                     </li>
                 </ul>
             </nav>
