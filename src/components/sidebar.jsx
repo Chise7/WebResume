@@ -32,19 +32,29 @@ const Sidebar = () => {
 
     return (
         <div className="side-bar">
+            <div className="intro">
+                <div className="home-text-cont">
+                    <div className="hello-text">Hello, My Name Is: </div>
+                        <h2 className="connorhise">Connor Hise</h2>
+                        <div className="home-text">I am a Computer Engineer with experience in a wide breadth of fields ranging from Embedded Systems to Full Stack Web Development. </div>
+                    </div>
+            </div>
             <nav className="navigation">
                 <ul>
                     <li>
-                        <a href="#Home" className={ activeSection === 'Home' ? 'active':' '}>Home</a>
+                        <a href="#Home" className={ activeSection === 'Home' ? 'active':' '}>About Me</a>
                         <a href="#Projects"className={ activeSection === 'Projects' ? 'active':' '}>Projects</a>
                         <a href="#Experience"className={ activeSection === 'Experience' ? 'active':' '}>Experience</a>
-                        <a href="#About"className={ activeSection === 'About' ? 'active':' '}>About Me</a>
                         <a href="#Contact"className={ activeSection === 'Contact' ? 'active':' '}>Contact</a>
                     </li>
                 </ul>
             </nav>
+            <div className="Contact Links">Links here</div>
         </div>
     );
 };
 
 export default Sidebar;
+
+
+                        {/* <a href="#About"className={ activeSection === 'About' ? 'active':' '}>About Me</a> */}

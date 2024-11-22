@@ -10,12 +10,15 @@ import Contact from './components/contact.jsx';
 export default function App() {
   return (
     <div className="App">
-      <Home />
-      <Sidebar />
-      <Projects />
-      <Experience/>
-      <About/>
-      <Contact/>
+      <div className= "sidebar-overhead">
+        <Sidebar />
+      </div>
+      <div className="header-sections">
+        <Home />
+        <Projects />
+        <Experience/>
+        <Contact/>
+      </div>
     </div>
   );
 };

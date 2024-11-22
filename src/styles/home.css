@@ -1,30 +1,25 @@
 .home{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    height: 100vh;
-    margin-left: 180px;
-    
-}
-
-.home-text-cont{
-    display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    height: 100vh; 
 }
 
-.connorhise{
-    font-size: calc(60px + 2vmin);
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: rgba(255, 255, 255, 0.815);
+.home-title{
+    margin-top: 125px;
+    font-size: calc(60px + 1vmin);
+    text-align: center;
+    margin-right: 2vw;
+    /* color: #818181; */
+    /* color: white; */
+    color: #ED7B58;
 }
 
-.hello-text{
-    margin-top: 25vh;
-    font-size: 1.5em;
-    color: #818181;
+.about-text{
+    color: #ED7B58;
+    margin-right: 2vw;
+    margin-top: 15px;
+    font-size: 1.2em;
 }
 
 .home-text{
@@ -32,14 +27,4 @@
     line-height: 1.6;
     color: #818181;
     margin-bottom: 20px;
-}
-
-.home-art{
-    margin-left: 25%;
-    height: auto;
-    padding: 2%;
-    margin-top: 5%;
-    max-width: 50%; 
-    border-radius: 10px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }

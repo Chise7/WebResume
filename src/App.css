@@ -6,10 +6,19 @@
 
 .App{
     /* color: black; */
-    background-color: #15182E;
+    /* background-color: #15182E; */
     display: flex;
-    flex-direction: column;
-    overflow: hidden;
+    flex-direction: row;
     font-family: 'Montserrat', sans-serif;
-    /* background-image: url('/stars.jpg'); */
+    background-color: #2D2E32;
+}
+
+.header-sections{
+    /* background-color: purple; */
+    width: 60%;
+    overflow: hidden;
+}
+
+.sidebar-overhead{
+    width: 40%
 }
